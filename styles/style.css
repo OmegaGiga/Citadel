@@ -1,0 +1,54 @@
+h1 {
+    color: #990000;
+    font-size: 275%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    font-family: Japan;
+}
+h2 {
+    color: #990000;
+    font-size: 200%;
+    margin-left:6%;
+    margin-bottom:0;
+    font-family: IHATCS;
+}
+h3 {
+    color: #990000;
+}
+p {
+    color: #990000;
+}
+li {
+    color: #990000;
+    margin: 5px;
+    margin-left: 6%;
+    font-size: 150%;
+    font-family: IHATCS;
+}
+body {
+    background-image: url("../images/background-white-bar.png"),
+    url("../images/dithering.png");
+    background-position: 50%;
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-size: cover;
+    
+    
+}
+@font-face {
+    font-family: Japan;
+    src: url(../fonts/JAPAN-Hollow.ttf);
+}
+@font-face {
+    font-family: Anime Ace;
+    src: url(../fonts/animeace2_reg.ttf);
+}
+@font-face {
+    font-family: IHATCS;
+    src: url(../fonts/IHATCS__.TTF);
+}
+.footer {
+    margin:5%;
+    margin-bottom:1%;
+    margin-top:0%;
+    position:absolute; bottom: 2%;
+}
